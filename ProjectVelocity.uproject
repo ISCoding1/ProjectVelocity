@@ -3,17 +3,6 @@
 	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "ProjectVelocity",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"CoreUObject"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -21,14 +10,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "MultiUserClient",
-			"Enabled": true
-		},
-		{
-			"Name": "ChaosVehiclesPlugin",
-			"Enabled": true
 		}
 	]
 }
